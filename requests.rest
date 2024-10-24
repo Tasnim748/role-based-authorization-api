@@ -1,0 +1,14 @@
+###
+POST http://localhost:3000/super/create-admin
+Content-Type: application/json
+
+{
+    "username": "tasnim_jakir",
+    "password": "1234_jakir"
+}
+
+
+###
+GET http://localhost:3000/auth/validate-refresh
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRhc25pbV9qYWtpciIsImlhdCI6MTcxNzU4MDQ5Mn0.L_XNBDitBV5aIcsnWl8lMfuHlw3wxgwkKhf6ilIcpSw
